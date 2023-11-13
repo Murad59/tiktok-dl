@@ -4,21 +4,22 @@
     "description": "tiktok video download without watermark",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
     },
     "keywords": [
-      "tiktok",
-      "video",
-      "download",
-      "without",
-      "watermark"
+        "tiktok",
+        "video",
+        "download",
+        "without",
+        "watermark"
     ],
     "author": "Jahid Hasan",
     "license": "ISC",
     "dependencies": {
-      "@tobyg74/tiktok-api-dl": "^1.0.13",
-      "ejs": "^3.1.9",
-      "express": "^4.18.2"
+        "@tobyg74/tiktok-api-dl": "^1.0.13",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "nodemon": "^3.0.1"
     }
-  }
-  
+}
