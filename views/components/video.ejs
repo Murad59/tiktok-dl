@@ -1,0 +1,24 @@
+<div class="w-full xl:w-3/5 overflow-hidden">
+          <!-- <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
+          
+          <img class="mx-auto w-full md:w-2/5 pt-3" src="<%= dynamicCover %>" />
+          <p class="mx-auto w-full md:w-2/5 text-gray-400 text-muted">@<%= author %></p>
+          <p class="mx-auto w-full md:w-2/5 mt-2"><%= description %></p>
+          <div class="flex items-center justify-center gap-5 pt-4">
+           
+            <a href="<%= music %>" download="Sarting to download...">
+                <button
+                    class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    Download - mp3
+                </button>
+            </a>
+           
+            <a href="<%= video %>" download="Sarting to download...">
+                <button
+                    class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    Download - mp4
+                </button>
+            </a>
+                    
+          </div>
+        </div>
